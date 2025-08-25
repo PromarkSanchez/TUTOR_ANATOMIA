@@ -36,7 +36,7 @@ function HighlightMarker({ position }) {
 export function Corazon({ scale = 1, selectedBoneInfo, isAnimating, controlsRef }) {
   const group = useRef();
   // ¡Asegúrate de que el archivo se llame corazon_final.glb en tu carpeta /public!
-  const { scene, animations } = useGLTF('/corazon_final.glb');
+  const { scene, animations } = useGLTF('corazon_final.glb');
   const { actions } = useAnimations(animations, group);
   
   const [targetBone, setTargetBone] = useState(null); 
@@ -113,4 +113,4 @@ export function Corazon({ scale = 1, selectedBoneInfo, isAnimating, controlsRef 
   );
 }
 
-useGLTF.preload('/corazon_final.glb');
+useGLTF.preload('corazon_final.glb');

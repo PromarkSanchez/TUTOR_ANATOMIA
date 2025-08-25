@@ -1,0 +1,7 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden; /* ¡Súper importante! */
+  background-color: #1d212b; /* Fondo base */
+}

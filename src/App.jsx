@@ -95,7 +95,7 @@ export default function App() {
   return (
     <div style={appStyles}>
       <header style={headerStyles}>
-        <h1>Demo Interactivo - Hered-IA</h1>
+        <h1>Demo Interactivo</h1>
       </header>
       
       <main style={mainContentStyles}>
